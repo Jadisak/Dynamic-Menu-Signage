@@ -1,6 +1,8 @@
 body {
   background-image: url("images/38-FoodV3.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,13 +89,15 @@ header {
 
 footer {
   bottom: 0;
-  height: 3vh;
-  background-color: #b1102b;
+  height: 4vh;
+  background: linear-gradient(155deg, #a37d00 20%, #eec42c9b 70%, #ffc40086 80%, #8a6604 100%);
   color: #ffffff;
   font-family: "futura-pt", sans-serif;
   font-size: 2vh;
   text-align: center;
-  padding: 1vh 0;
+  padding: 1.6vh 0vh 0.4vh 0vh;
+  position: absolute;
+  left: 0;
   overflow: hidden;
 }
 
