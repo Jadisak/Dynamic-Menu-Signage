@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
 body {
   background-image: url("images/38-FoodV3.jpg");
   background-size: cover;
@@ -10,6 +13,9 @@ body {
   margin: 0;
   padding: 0;
   overflow: clip !important;
+  font-family: "Euphoria Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header,
@@ -25,11 +31,12 @@ header {
 }
 
 .MenuTitle {
-  font-family: "trailmade", script;
+  font-family: "Euphoria Script", cursive;
   font-weight: 400;
+  font-style: normal;
   font-size: 8vh;
   color: #f7f7f7;
-  padding: 1vh;
+  padding: 2vh 1vw;
 }
 
 .MenuItem {
@@ -42,7 +49,7 @@ header {
 .MenuItemType,
 .MenuFoodItem {
   flex-shrink: 1;
-  font-family: "coolvetica", sans-serif;
+  font-family: Noto Sans Thai, sans-serif;
   font-size: 2vh;
   color: #f7f7f7;
 }
@@ -63,7 +70,7 @@ header {
   font-size: 2.5vh;
   margin-bottom: 1.25vh;
   color: #f7f7f7;
-  font-family: "coolvetica", sans-serif;
+  font-family: Noto Sans Thai, sans-serif;
   font-weight: 500;
 }
 
@@ -92,7 +99,7 @@ footer {
   height: 4vh;
   background: linear-gradient(155deg, #a37d00 20%, #eec42c9b 70%, #ffc40086 80%, #8a6604 100%);
   color: #ffffff;
-  font-family: "futura-pt", sans-serif;
+  font-family: Noto Sans Thai, sans-serif;
   font-size: 2vh;
   text-align: center;
   padding: 1.6vh 0vh 0.4vh 0vh;
@@ -118,7 +125,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  width: 40%;
+  width: 30%;
+  border: #f7f7f783 solid 1px;
+  padding: 2vh;
 }
 
 hr {

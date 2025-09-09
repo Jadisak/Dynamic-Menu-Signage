@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentDayName = days[currentDate.getDay()];
 
   // Setting the text
-  dayTitleSpan.textContent = currentDayName + "'s Esan Zaap Menu";
+  dayTitleSpan.textContent = currentDayName + "'s Esan Zaap";
 });
 
 document.addEventListener("DOMContentLoaded", function () {
